@@ -20,7 +20,13 @@ main {
     @media (min-width: 1200px){
         max-width: 80%;
     }
-    
+    // mudei
+    @media (max-width: 405px){
+        font-size: 14px;
+        margin: 2%;
+        padding: 2%;
+        width: 100%;
+    }
 }
 
 header {
@@ -99,9 +105,15 @@ h2{
     padding-bottom: 2rem;
     font-family: "Poppins", sans-serif;
     @media (max-width: 360px){
-        padding: 8px;
-        margin: 2px;
+        padding: 2px;
+        margin: 1px;
         margin-top: 15px;
+    }
+    // muedei
+    @media (max-width: 405px){
+        padding: 2px;
+        margin: 1px;
+        font-size: 14px;
     }
     
 }
@@ -112,8 +124,15 @@ h2{
     padding: 0 5rem 2rem;
     font-family: "Poppins", sans-serif;
     @media (max-width: 360px){
-        padding: 8px;
-        margin: 2px;
+        padding: 2px;
+        margin: 1px;
+        font-size: 14px;
+    }
+    // mudei
+    @media (max-width: 405px){
+        padding: 2px;
+        margin: 1px;
+        font-size: 14px;
     }
 }
 

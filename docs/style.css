@@ -21,6 +21,14 @@ main {
     max-width: 80%;
   }
 }
+@media (max-width: 405px) {
+  main {
+    font-size: 14px;
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+  }
+}
 
 header {
   background-color: rgb(215, 160, 178);
@@ -103,9 +111,16 @@ h2 {
 }
 @media (max-width: 360px) {
   .paragrafos {
-    padding: 8px;
-    margin: 2px;
+    padding: 2px;
+    margin: 1px;
     margin-top: 15px;
+  }
+}
+@media (max-width: 405px) {
+  .paragrafos {
+    padding: 2px;
+    margin: 1px;
+    font-size: 14px;
   }
 }
 
@@ -116,8 +131,16 @@ h2 {
 }
 @media (max-width: 360px) {
   .paragrafo_baixo {
-    padding: 8px;
-    margin: 2px;
+    padding: 2px;
+    margin: 1px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 405px) {
+  .paragrafo_baixo {
+    padding: 2px;
+    margin: 1px;
+    font-size: 14px;
   }
 }
 
