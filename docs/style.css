@@ -111,10 +111,12 @@ h1 {
 }
 
 h2 {
+  background-color: rgb(215, 160, 178);
   font-family: "New Amsterdam", sans-serif;
   font-weight: 300;
   text-align: center;
   font-size: 4vh;
+  width: 100%;
 }
 @media (max-width: 360px) {
   h2 {
@@ -136,7 +138,7 @@ h2 {
 .paragrafos {
   font-size: 2vh;
   padding: 2rem 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4px;
   font-family: "Poppins", sans-serif;
 }
 @media (max-width: 360px) {
